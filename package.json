@@ -8,14 +8,15 @@
   },
   "license": "MIT",
   "author": "Gokhan Kurt <krtgkn@gmail.com> (https://github.com/KurtGokhan)",
-  "scripts": {
-    "version": "node version.js"
-  },
-  "peerDependencies": {
-    "@reactunity/scripts": "*"
-  },
   "bugs": {
     "url": "https://github.com/ReactUnity/previewer/issues"
   },
-  "homepage": "https://github.com/ReactUnity/previewer#readme"
+  "homepage": "https://github.com/ReactUnity/previewer#readme",
+  "main": "index.js",
+  "scripts": {
+    "version": "node version.js && git add public/index.html"
+  },
+  "peerDependencies": {
+    "@reactunity/scripts": "*"
+  }
 }
