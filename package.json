@@ -2,17 +2,20 @@
   "name": "@reactunity/previewer",
   "version": "0.10.0",
   "description": "Auxiliary package which includes the default ReactUnity Web Previewer to use with @reactunity/scripts",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactUnity/previewer.git"
+  },
+  "license": "MIT",
+  "author": "Gokhan Kurt <krtgkn@gmail.com> (https://github.com/KurtGokhan)",
   "scripts": {
     "version": "node version.js"
   },
   "peerDependencies": {
     "@reactunity/scripts": "*"
   },
-  "author": "Gokhan Kurt <krtgkn@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ReactUnity/previewer"
-  }
+  "bugs": {
+    "url": "https://github.com/ReactUnity/previewer/issues"
+  },
+  "homepage": "https://github.com/ReactUnity/previewer#readme"
 }
