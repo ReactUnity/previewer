@@ -1,6 +1,6 @@
 {
   "name": "@reactunity/previewer",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "Auxiliary package which includes the default ReactUnity Web Previewer to use with @reactunity/scripts",
   "repository": {
     "type": "git",
